@@ -42,7 +42,7 @@ function getBlockHash(){
 function listStreamKeys(){
   //stream1 = "stream1"
   multichain.listStreamKeys(
-   ["stream1"],
+   [stream],
    (err,info)=>{
     if(err){
      console.log(err);
